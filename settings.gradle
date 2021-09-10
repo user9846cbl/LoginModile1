@@ -1,3 +1,9 @@
 include ':loginmodule'
 include ':sample'
 rootProject.name = "LoginModule"
+
+sourceControl {
+    gitRepository("https://github.com/user9846cbl/LoginModile1.git") {
+        producesModule("org.gradle.sample:loginmodule")
+    }
+}
