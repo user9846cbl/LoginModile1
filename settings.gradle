@@ -1,0 +1,3 @@
+include ':loginmodule'
+include ':sample'
+rootProject.name = "LoginModule"
